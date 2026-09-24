@@ -1,8 +1,8 @@
-# LAB511: Create advanced Postgres-powered agentic apps with Azure HorizonDB
+# Azure HorizonDB: Building Scalable AI-Enabled PostgreSQL Applications
 
 ## Overview
 
-This Microsoft Build 2026 lab walks you through building an **agentic legal research application** end to end, powered by a single **Azure HorizonDB** (Postgres) instance acting as your relational store, full-text search engine, vector database, graph database, **and** long-term memory store for the agent.
+This European Microsoft Fabric and SQL Conference 2026 lab walks you through building an **agentic legal research application** end to end, powered by a single **Azure HorizonDB** (Postgres) instance acting as your relational store, full-text search engine, vector database, graph database, **and** long-term memory store for the agent.
 
 You will load a real U.S. case-law dataset, light up the AI extensions inside HorizonDB, and then assemble a Microsoft Agent Framework agent that combines **BM25 keyword search**, **vector similarity (DiskANN)**, **citation-graph traversal (Apache AGE)**, **in-database entity extraction (`azure_ai`)**, and an **external weather API** to write a real legal brief, with persistent memory across turns.
 
